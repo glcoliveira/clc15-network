@@ -15,6 +15,7 @@ jobs:
   Apply:
     name: 'Apply Changes'
     runs-on: ubuntu-latest
+    environment: Production
 
     defaults:
       run:
